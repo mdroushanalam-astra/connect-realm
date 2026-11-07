@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# ConnectRealm — Spatial Collaboration & Virtual Room Gateway 🌐🤝
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/b77403de-2344-449a-9c59-fec6b1c0f127
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS%203-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-## How can I edit this code?
+**An experimental spatial collaboration gateway and virtual room dispatcher designed for low-latency peer interactions and distributed student cohorts.**
 
-There are several ways of editing your application.
+[Overview](#overview) • [Architecture](#architecture) • [Setup](#local-development)
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b77403de-2344-449a-9c59-fec6b1c0f127) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚡ Overview
 
-**Use your preferred IDE**
+ConnectRealm is an exploratory spatial collaboration environment developed to prototype multi-user room routing, spatial audio boundaries, and seamless cohort formation:
+* **Room Dispatcher:** Instantaneous room code generation and secure URL routing.
+* **Component Mesh:** Modular UI tiles designed to accommodate video tiles, whiteboard surfaces, and synchronized code editors.
+* **Responsive HUD:** Dark-mode optimized workspace built with Radix UI and Tailwind CSS.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+- **Frontend:** React 18, TypeScript, Vite
+- **Styling:** Tailwind CSS, Radix UI Primitives, Lucide Icons
+- **Tooling:** Bun, ESLint
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 💻 Local Development
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# 1. Clone repository
+git clone https://github.com/mdroushanalam-astra/Connect-realm.git
+cd Connect-realm
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 2. Install dependencies
+npm install
+
+# 3. Start dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b77403de-2344-449a-9c59-fec6b1c0f127) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<div align="center">
+  <sub>Engineered by <a href="https://github.com/mdroushanalam-astra">Md. Roushan Alam</a></sub>
+</div>
