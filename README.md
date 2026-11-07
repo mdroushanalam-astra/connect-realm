@@ -1,4 +1,4 @@
-# ConnectRealm — Spatial Collaboration & Virtual Room Gateway 🌐🤝
+# ConnectRealm:  Spatial Collaboration & Virtual Room Gateway 🌐🤝
 
 <div align="center">
 
